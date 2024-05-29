@@ -2,6 +2,7 @@ import { Header } from "../../components/Header";
 import { Image, Text, TextInput, TouchableOpacity, View } from "react-native";
 import { styles } from './styles'
 import { Counter } from "../../components/Counter";
+import { EmptyMessage } from "../../components/EmptyMessage";
 
 export function Home() {
     return (
@@ -23,6 +24,8 @@ export function Home() {
                 <Counter counterName="Criadas" count={2}/>
                 <Counter counterName="Concluídas" count={2}/>
             </View>
+
+            <EmptyMessage />
 
             
         </View>

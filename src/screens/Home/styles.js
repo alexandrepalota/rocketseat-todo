@@ -33,6 +33,7 @@ export const styles = StyleSheet.create({
     counters: {
         flexDirection: 'row',
         marginTop: 32,
+        marginBottom: 20,
         justifyContent: 'space-between',
         paddingHorizontal: 26
     }
