@@ -2,7 +2,7 @@ import { Header } from "../../components/Header";
 import { Image, Text, TextInput, TouchableOpacity, View } from "react-native";
 import { styles } from './styles'
 import { Counter } from "../../components/Counter";
-import { EmptyMessage } from "../../components/EmptyMessage";
+import { Task } from "../../components/Task";
 
 export function Home() {
     return (
@@ -25,7 +25,9 @@ export function Home() {
                 <Counter counterName="Concluídas" count={2}/>
             </View>
 
-            <EmptyMessage />
+            <Task done={true} text='Lavar a louça'/>
+            <Task done={true} text='Lavar a louça'/>
+            <Task done={true} text='Lavar a louça'/>
 
             
         </View>
