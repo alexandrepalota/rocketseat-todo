@@ -3,7 +3,7 @@ import { StyleSheet } from "react-native";
 export const styles = StyleSheet.create({
     container: {
         backgroundColor: '#1A1A1A',
-        flex: 1
+        flex: 1,
     },
     form: {
         height: 56,
@@ -30,5 +30,10 @@ export const styles = StyleSheet.create({
         justifyContent: 'center',
         alignItems: 'center'
     },
-    buttonText: {}
+    counters: {
+        flexDirection: 'row',
+        marginTop: 32,
+        justifyContent: 'space-between',
+        paddingHorizontal: 26
+    }
 });
